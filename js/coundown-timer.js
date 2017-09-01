@@ -6,8 +6,8 @@
 
 		//array of custom settings
 		var settings = { 
-			'date': null,
-			'format': null
+			'date': "01 December 2017 19:30:00", //to turn off make it equal "null"
+			'format': "on" //to turn off make it equal "null"
 		};
 
 		//append the settings array to options

@@ -2,8 +2,8 @@ jQuery(function($) {'use strict',
 	
 	//Countdown js
 	 $("#countdown").countdown({
-			date: "10 july 2014 12:00:00",
-			format: "on"
+			date: "01 December 2017 19:30:00", //edit this date or equal "null"
+			format: "on" //keep on
 		},
 		
 		function() {
@@ -75,8 +75,8 @@ jQuery(function($) {'use strict',
 
 	map = new GMaps({
 		el: '#gmap',
-		lat: 43.04446,
-		lng: -76.130791,
+		lat: 41.665517, //change lat: to latitutde of location change
+		lng: -72.7831397, //change lat: to longitude of location change
 		scrollwheel:false,
 		zoom: 16,
 		zoomControl : false,
@@ -89,8 +89,8 @@ jQuery(function($) {'use strict',
 
 	var image = 'images/map-icon.png';
 	map.addMarker({
-		lat: 43.04446,
-		lng: -76.130791,
+		lat: 41.665517, //change lat: to latitutde of location change
+		lng: -72.7831397, //change lat: to longitude of location change
 		icon: image,
 		animation: google.maps.Animation.DROP,
 		verticalAlign: 'bottom',
